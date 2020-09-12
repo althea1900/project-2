@@ -6,7 +6,7 @@
     - Brittaney Marshall
     
 
-* **Project Description/Outline**: We will use Richmond parks, emergancy servies and grocery store data in relation to Richmond housing prices to determine Richmonder's accessibility. Our plan is to make an initial heat map of the most recent Richmond housing prices we can find as our base, and then layer on top the locations of public parks, color-coded emergency services based on type and locations of grocery stores to show the accessibility differences in Richmond.
+* **Project Description/Outline**: We will use Richmond parks, emergency services and grocery store data in relation to Richmond housing prices to determine Richmonder's accessibility. Our plan is to make an initial heat map of the most recent Richmond housing prices we can find as our base, and then layer on top the locations of public parks, color-coded emergency services based on type and locations of grocery stores to show the accessibility differences in Richmond.
 
 * **Datasets to Be Used**: 
   
