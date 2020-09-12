@@ -1,4 +1,4 @@
-# Project 2 - Richmond Housing Prices in relations to praks, emergancy servies and grocery stores
+# Project 2 - Richmond Accessibility based on Housing Prices 
 
 * **Team Members**:
     - Aja Ould
@@ -6,16 +6,15 @@
     - Brittaney Marshall
     
 
-* **Project Description/Outline**: 
-
-* **Research Questions to Answer**: 
-
+* **Project Description/Outline**: We will use Richmond praks, emergancy servies and grocery store data in relation to Richmond housing prices to determine Richmonder's accessibility
 
 * **Datasets to Be Used**: 
   
-  1. 
+  1. Google API for housing data
 
-  2.
+  2. Google API for emergancy sevices data
+  
+  3. Richmond GEOHub for park data
     
 * **Rough Breakdown of Tasks**:
 
