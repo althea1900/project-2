@@ -1,29 +1,28 @@
-# Project 2 - Richmond Accessibility based on Housing Prices 
+# Project 2 - Richmond Access to Emergency and Public Green Space based on Housing Prices
 
 * **Team Members**:
     - Aja Ould
     - Althea McMillian
-    - Brittaney Marshall
-    
 
-* **Project Description/Outline**: We will use Richmond parks, emergency services and grocery store data in relation to Richmond housing prices to determine Richmonder's accessibility. Our plan is to make an initial heat map of the most recent Richmond housing prices we can find as our base, and then layer on top the locations of public parks, color-coded emergency services based on type and locations of grocery stores to show the accessibility differences in Richmond.
+
+* **Project Description/Outline**: We used 2017 Richmond parks, emergency services and Richmond housing prices data to determine Richmonder's accessibility to green space and basic emergency services.
+
+We have made a heat map of the Richmond housing prices as our base, with the ability to layer on top the locations of public parks, and the different types of emergency services available within an area to show the accessibility differences in Richmond.   
 
 * **Datasets to Be Used**: 
-  
-  1. ALFRED Archival Economic Data for housing data - https://alfred.stlouisfed.org/series?seid=ATNHPIUS40060Q&utm_source=series_page&utm_medium=related_content&utm_term=related_resources&utm_campaign=alfred
+1.	ALFRED Archival Economic Data for housing data: - https://alfred.stlouisfed.org/series?seid=ATNHPIUS40060Q&utm_source=series_page&utm_medium=related_content&utm_term=related_resources&utm_campaign=alfred
+2.	Virginia Department of Conservation and Recreation for parks data: - https://richmond-geo-hub-cor.hub.arcgis.com/datasets/parks-2
+3.	Google API for emergency services data: - https://maps.googleapis.com/maps/api/place/nearbysearch/json
 
-  2. Google API for emergancy sevices data - 
-  
-  3.  Virginia Department of Conservation and Recreation for parks data - https://richmond-geo-hub-cor.hub.arcgis.com/datasets/parks-2
+* **Coding Approach**:
+1.	Locating the actual data we required to demonstrate out story
+2.	Data manipulations
+ -	We utilized jupiter notebooks to create dataframes and PostgreSQL to condense the data to the Richmond area
+ -	We also worked with D3, Json and GeoJson files along with and Leafleaf JS to build our final visulizations
+3.	Finally, we deployed our site to the web using Heroku
 
-  4. Grocery Store data - 
-    
-* **Rough Breakdown of Tasks**:
 
-  1. 
+•	Conclusion:
 
-  2. 
-
-  3.
 - - -
 
