@@ -22,7 +22,7 @@ We have made a heat map of the Richmond housing prices as our base, with the abi
 3.	Finally, we deployed our site to the web using Heroku
 
 
-•	Conclusion:
+* **Conclusion**:
 
 - - -
 
