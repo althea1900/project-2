@@ -102,8 +102,17 @@ function createEMS() {
   });
 }
 
+function refreshPage(){
+  window.location.reload(true)
+}
 
 var button1 = d3.select("#pksBtn");
 var form = d3.select("#container")
 button1.on("click", createParks);
 form.on("submit",createParks);
+
+var button2 = d3.select("#emsBtn");
+var form = d3.select("#container")
+button2.on("click", createEMS);
+form.on("submit", createEMS);
+
