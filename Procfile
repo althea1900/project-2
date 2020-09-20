@@ -1,1 +1,0 @@
-web: gunicorn project-2:home.html
