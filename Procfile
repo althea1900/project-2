@@ -1,1 +1,1 @@
-web: index.home
+web: php index.home
