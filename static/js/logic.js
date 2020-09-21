@@ -96,8 +96,8 @@ d3.json(link, function (data) {
 
 
 function createEMS() {
-  d3.csv('/static/js/emergency.csv', function (d) {
-    emergencies = omnivore.csv('/static/js/emergency.csv').addTo(myMap);
+  d3.csv(' /project-2/static/js/emergency.csv', function (d) {
+    emergencies = omnivore.csv(' /project-2/static/js/emergency.csv').addTo(myMap);
 
   });
 }
