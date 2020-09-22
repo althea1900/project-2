@@ -121,10 +121,10 @@ function createEMS() {
   
       // For each station, create a marker and bind a popup with the station's name
       var bikeMarker = L.marker([station.Latitude, station.Longitude])
-        .bindPopup("<h3>" + station.Name + "<h3><h3>Type: " + station.Type + "</h3>");
-  
-      // Add the marker to the bikeMarkers array
+        .bindPopup("<h3>" + station.Name + "<h3><h3>Type: " + station.Type + "</h3>").addTo(myMap);
+        // Add the marker to the bikeMarkers array
       bikeMarkers.push(bikeMarker);
+      console.log(station.Name)
     }
   
     // Create a layer group made from the bike markers array, pass it into the createMap function
@@ -133,7 +133,6 @@ function createEMS() {
   d3.json(eMap, createMarkers)
 
 }
-
 
 
 function refreshPage(){
