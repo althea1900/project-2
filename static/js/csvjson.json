@@ -1,4 +1,5 @@
-{"Places": [
+{
+  "places": [
   {
     "Name": "Chippenham Hospital",
     "Longitude": -77.5263523,
@@ -359,5 +360,5 @@
     "Latitude": 37.5425477,
     "Type": "Police"
   }
-]
+  ]
 }
