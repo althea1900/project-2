@@ -110,7 +110,7 @@ var eMap = 'https://althea1900.github.io/project-2/static/js/csvjson.json'
 function createEMS() {
   function createMarkers(response) {
     // Pull the "stations" property off of response.data
-    var stations = response.data.Places;
+    var stations = response.data.places;
 
     // Initialize an array to hold bike markers
     var bikeMarkers = [];
