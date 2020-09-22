@@ -120,8 +120,8 @@ function createEMS() {
       var station = stations[index];
   
       // For each station, create a marker and bind a popup with the station's name
-      var bikeMarker = L.marker([station.latitude, station.longitude])
-        .bindPopup("<h3>" + station.name + "<h3><h3>Capacity: " + station.capacity + "</h3>");
+      var bikeMarker = L.marker([station.Latitude, station.Longitude])
+        .bindPopup("<h3>" + station.Name + "<h3><h3>Type: " + station.Type + "</h3>");
   
       // Add the marker to the bikeMarkers array
       bikeMarkers.push(bikeMarker);
